@@ -71,7 +71,6 @@ function findSong(searchTerm) {
 findSong("kiss");
 
 
-
 const sortedByTitle = [...playlist].sort((a, b) => a.title.localeCompare(b.title));
 console.table(sortedByTitle);
 
