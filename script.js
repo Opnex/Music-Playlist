@@ -14,9 +14,7 @@ playlist.forEach(play => {
   });
 
   
-// Task 1: Filter for "Rock" songs into rockSongs array
 // let rockSongs = playlist.filter(song => song.genre === "Rock");
-// console.table(rockSongs);
 
 let rockSongs = playlist.filter(showSongs);
 function showSongs(playlist) {
@@ -67,7 +65,6 @@ function findSong(searchTerm) {
     );
     console.table(results);
 }
-
 findSong("kiss");
 
 
